@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		5FE8DA9B1C737CF5005419D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8DA9A1C737CF5005419D3 /* main.m */; };
 		5FE8DA9E1C737CF5005419D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8DA9D1C737CF5005419D3 /* AppDelegate.m */; };
-		5FE8DAA11C737CF5005419D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8DAA01C737CF5005419D3 /* ViewController.m */; };
 		5FE8DAA41C737CF5005419D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE8DAA21C737CF5005419D3 /* Main.storyboard */; };
 		5FE8DAA61C737CF5005419D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE8DAA51C737CF5005419D3 /* Assets.xcassets */; };
 		5FE8DAA91C737CF5005419D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE8DAA71C737CF5005419D3 /* LaunchScreen.storyboard */; };
 		5FE8DAB41C737CF5005419D3 /* GithubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8DAB31C737CF5005419D3 /* GithubTests.m */; };
 		5FE8DABF1C737CF5005419D3 /* GithubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8DABE1C737CF5005419D3 /* GithubUITests.m */; };
+		5FE8DADA1C737D41005419D3 /* ServerRequestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8DAD91C737D41005419D3 /* ServerRequestUtils.m */; };
+		5FE8DADD1C737D47005419D3 /* NSDictionary+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8DADC1C737D47005419D3 /* NSDictionary+Utils.m */; };
+		5FE8DAE01C737D4E005419D3 /* NetworkFactoryRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8DADF1C737D4E005419D3 /* NetworkFactoryRequests.m */; };
+		5FE8DAE31C737D54005419D3 /* EntryParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8DAE21C737D54005419D3 /* EntryParams.m */; };
+		5FE8DAE81C737DE6005419D3 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8DAE71C737DE6005419D3 /* DetailsViewController.m */; };
+		5FE8DAED1C737DED005419D3 /* DashboardTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8DAEA1C737DED005419D3 /* DashboardTableController.m */; };
+		5FE8DAEE1C737DED005419D3 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8DAEC1C737DED005419D3 /* DashboardViewController.m */; };
+		5FE8DAF31C737ED5005419D3 /* GithubRequestRequestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8DAF01C737ED5005419D3 /* GithubRequestRequestController.m */; };
+		5FE8DAF41C737ED5005419D3 /* GithubRequestRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8DAF21C737ED5005419D3 /* GithubRequestRequestManager.m */; };
+		5FE8DAF71C7388A4005419D3 /* DashboardSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE8DAF61C7388A4005419D3 /* DashboardSearchController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +48,6 @@
 		5FE8DA9A1C737CF5005419D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5FE8DA9C1C737CF5005419D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FE8DA9D1C737CF5005419D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5FE8DA9F1C737CF5005419D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5FE8DAA01C737CF5005419D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5FE8DAA31C737CF5005419D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FE8DAA51C737CF5005419D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FE8DAA81C737CF5005419D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,26 @@
 		5FE8DABA1C737CF5005419D3 /* GithubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE8DABE1C737CF5005419D3 /* GithubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubUITests.m; sourceTree = "<group>"; };
 		5FE8DAC01C737CF5005419D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE8DAD81C737D41005419D3 /* ServerRequestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerRequestUtils.h; path = Utils/ServerRequestUtils/ServerRequestUtils.h; sourceTree = "<group>"; };
+		5FE8DAD91C737D41005419D3 /* ServerRequestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServerRequestUtils.m; path = Utils/ServerRequestUtils/ServerRequestUtils.m; sourceTree = "<group>"; };
+		5FE8DADB1C737D47005419D3 /* NSDictionary+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Utils.h"; path = "Utils/NSDictionary+Utils/NSDictionary+Utils.h"; sourceTree = "<group>"; };
+		5FE8DADC1C737D47005419D3 /* NSDictionary+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Utils.m"; path = "Utils/NSDictionary+Utils/NSDictionary+Utils.m"; sourceTree = "<group>"; };
+		5FE8DADE1C737D4E005419D3 /* NetworkFactoryRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkFactoryRequests.h; path = Utils/NetworkFactoryRequests/NetworkFactoryRequests.h; sourceTree = "<group>"; };
+		5FE8DADF1C737D4E005419D3 /* NetworkFactoryRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkFactoryRequests.m; path = Utils/NetworkFactoryRequests/NetworkFactoryRequests.m; sourceTree = "<group>"; };
+		5FE8DAE11C737D54005419D3 /* EntryParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntryParams.h; path = Utils/EntryParams/EntryParams.h; sourceTree = "<group>"; };
+		5FE8DAE21C737D54005419D3 /* EntryParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EntryParams.m; path = Utils/EntryParams/EntryParams.m; sourceTree = "<group>"; };
+		5FE8DAE61C737DE6005419D3 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailsViewController.h; path = Details/DetailsViewController.h; sourceTree = "<group>"; };
+		5FE8DAE71C737DE6005419D3 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailsViewController.m; path = Details/DetailsViewController.m; sourceTree = "<group>"; };
+		5FE8DAE91C737DED005419D3 /* DashboardTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DashboardTableController.h; path = Dashboard/DashboardTableController.h; sourceTree = "<group>"; };
+		5FE8DAEA1C737DED005419D3 /* DashboardTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DashboardTableController.m; path = Dashboard/DashboardTableController.m; sourceTree = "<group>"; };
+		5FE8DAEB1C737DED005419D3 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DashboardViewController.h; path = Dashboard/DashboardViewController.h; sourceTree = "<group>"; };
+		5FE8DAEC1C737DED005419D3 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DashboardViewController.m; path = Dashboard/DashboardViewController.m; sourceTree = "<group>"; };
+		5FE8DAEF1C737ED5005419D3 /* GithubRequestRequestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GithubRequestRequestController.h; path = Utils/GithubRequest/GithubRequestRequestController.h; sourceTree = "<group>"; };
+		5FE8DAF01C737ED5005419D3 /* GithubRequestRequestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GithubRequestRequestController.m; path = Utils/GithubRequest/GithubRequestRequestController.m; sourceTree = "<group>"; };
+		5FE8DAF11C737ED5005419D3 /* GithubRequestRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GithubRequestRequestManager.h; path = Utils/GithubRequest/GithubRequestRequestManager.h; sourceTree = "<group>"; };
+		5FE8DAF21C737ED5005419D3 /* GithubRequestRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GithubRequestRequestManager.m; path = Utils/GithubRequest/GithubRequestRequestManager.m; sourceTree = "<group>"; };
+		5FE8DAF51C7388A4005419D3 /* DashboardSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DashboardSearchController.h; path = Dashboard/DashboardSearchController.h; sourceTree = "<group>"; };
+		5FE8DAF61C7388A4005419D3 /* DashboardSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DashboardSearchController.m; path = Dashboard/DashboardSearchController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +108,7 @@
 		5FE8DA8D1C737CF5005419D3 = {
 			isa = PBXGroup;
 			children = (
+				5FE8DACC1C737D11005419D3 /* Utils */,
 				5FE8DA981C737CF5005419D3 /* Github */,
 				5FE8DAB21C737CF5005419D3 /* GithubTests */,
 				5FE8DABD1C737CF5005419D3 /* GithubUITests */,
@@ -101,10 +129,10 @@
 		5FE8DA981C737CF5005419D3 /* Github */ = {
 			isa = PBXGroup;
 			children = (
+				5FE8DAE41C737DD6005419D3 /* Dashboard */,
+				5FE8DAE51C737DDD005419D3 /* Details */,
 				5FE8DA9C1C737CF5005419D3 /* AppDelegate.h */,
 				5FE8DA9D1C737CF5005419D3 /* AppDelegate.m */,
-				5FE8DA9F1C737CF5005419D3 /* ViewController.h */,
-				5FE8DAA01C737CF5005419D3 /* ViewController.m */,
 				5FE8DAA21C737CF5005419D3 /* Main.storyboard */,
 				5FE8DAA51C737CF5005419D3 /* Assets.xcassets */,
 				5FE8DAA71C737CF5005419D3 /* LaunchScreen.storyboard */,
@@ -138,6 +166,87 @@
 				5FE8DAC01C737CF5005419D3 /* Info.plist */,
 			);
 			path = GithubUITests;
+			sourceTree = "<group>";
+		};
+		5FE8DACC1C737D11005419D3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5FE8DAD11C737D36005419D3 /* GithubRequest */,
+				5FE8DAD01C737D2F005419D3 /* ServerRequestUtils */,
+				5FE8DACF1C737D28005419D3 /* NSDictionary+Utils */,
+				5FE8DACE1C737D21005419D3 /* NetworkFactoryRequests */,
+				5FE8DACD1C737D1A005419D3 /* EntryParams */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		5FE8DACD1C737D1A005419D3 /* EntryParams */ = {
+			isa = PBXGroup;
+			children = (
+				5FE8DAE11C737D54005419D3 /* EntryParams.h */,
+				5FE8DAE21C737D54005419D3 /* EntryParams.m */,
+			);
+			name = EntryParams;
+			sourceTree = "<group>";
+		};
+		5FE8DACE1C737D21005419D3 /* NetworkFactoryRequests */ = {
+			isa = PBXGroup;
+			children = (
+				5FE8DADE1C737D4E005419D3 /* NetworkFactoryRequests.h */,
+				5FE8DADF1C737D4E005419D3 /* NetworkFactoryRequests.m */,
+			);
+			name = NetworkFactoryRequests;
+			sourceTree = "<group>";
+		};
+		5FE8DACF1C737D28005419D3 /* NSDictionary+Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5FE8DADB1C737D47005419D3 /* NSDictionary+Utils.h */,
+				5FE8DADC1C737D47005419D3 /* NSDictionary+Utils.m */,
+			);
+			name = "NSDictionary+Utils";
+			sourceTree = "<group>";
+		};
+		5FE8DAD01C737D2F005419D3 /* ServerRequestUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5FE8DAD81C737D41005419D3 /* ServerRequestUtils.h */,
+				5FE8DAD91C737D41005419D3 /* ServerRequestUtils.m */,
+			);
+			name = ServerRequestUtils;
+			sourceTree = "<group>";
+		};
+		5FE8DAD11C737D36005419D3 /* GithubRequest */ = {
+			isa = PBXGroup;
+			children = (
+				5FE8DAF11C737ED5005419D3 /* GithubRequestRequestManager.h */,
+				5FE8DAF21C737ED5005419D3 /* GithubRequestRequestManager.m */,
+				5FE8DAEF1C737ED5005419D3 /* GithubRequestRequestController.h */,
+				5FE8DAF01C737ED5005419D3 /* GithubRequestRequestController.m */,
+			);
+			name = GithubRequest;
+			sourceTree = "<group>";
+		};
+		5FE8DAE41C737DD6005419D3 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				5FE8DAEB1C737DED005419D3 /* DashboardViewController.h */,
+				5FE8DAEC1C737DED005419D3 /* DashboardViewController.m */,
+				5FE8DAE91C737DED005419D3 /* DashboardTableController.h */,
+				5FE8DAEA1C737DED005419D3 /* DashboardTableController.m */,
+				5FE8DAF51C7388A4005419D3 /* DashboardSearchController.h */,
+				5FE8DAF61C7388A4005419D3 /* DashboardSearchController.m */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		5FE8DAE51C737DDD005419D3 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				5FE8DAE61C737DE6005419D3 /* DetailsViewController.h */,
+				5FE8DAE71C737DE6005419D3 /* DetailsViewController.m */,
+			);
+			name = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +379,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FE8DAA11C737CF5005419D3 /* ViewController.m in Sources */,
+				5FE8DAF31C737ED5005419D3 /* GithubRequestRequestController.m in Sources */,
+				5FE8DAED1C737DED005419D3 /* DashboardTableController.m in Sources */,
+				5FE8DADD1C737D47005419D3 /* NSDictionary+Utils.m in Sources */,
+				5FE8DAE81C737DE6005419D3 /* DetailsViewController.m in Sources */,
+				5FE8DAF71C7388A4005419D3 /* DashboardSearchController.m in Sources */,
+				5FE8DAE01C737D4E005419D3 /* NetworkFactoryRequests.m in Sources */,
+				5FE8DAF41C737ED5005419D3 /* GithubRequestRequestManager.m in Sources */,
+				5FE8DADA1C737D41005419D3 /* ServerRequestUtils.m in Sources */,
+				5FE8DAEE1C737DED005419D3 /* DashboardViewController.m in Sources */,
+				5FE8DAE31C737D54005419D3 /* EntryParams.m in Sources */,
 				5FE8DA9E1C737CF5005419D3 /* AppDelegate.m in Sources */,
 				5FE8DA9B1C737CF5005419D3 /* main.m in Sources */,
 			);
@@ -414,8 +532,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Github/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microapps.Github;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.Github;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -425,8 +544,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Github/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microapps.Github;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.Github;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -437,7 +557,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GithubTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microapps.GithubTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.GithubTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Github.app/Github";
 			};
@@ -449,7 +569,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GithubTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microapps.GithubTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.GithubTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Github.app/Github";
 			};
@@ -460,7 +580,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = GithubUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microapps.GithubUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.GithubUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = Github;
 				USES_XCTRUNNER = YES;
@@ -472,7 +592,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = GithubUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microapps.GithubUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pabloalejandro.GithubUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = Github;
 				USES_XCTRUNNER = YES;
@@ -498,6 +618,7 @@
 				5FE8DAC51C737CF5005419D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FE8DAC61C737CF5005419D3 /* Build configuration list for PBXNativeTarget "GithubTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +627,7 @@
 				5FE8DAC81C737CF5005419D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FE8DAC91C737CF5005419D3 /* Build configuration list for PBXNativeTarget "GithubUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +636,7 @@
 				5FE8DACB1C737CF5005419D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
